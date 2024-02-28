@@ -18,7 +18,7 @@ Pokemon Challenge is designed as a single-page game app that incorporates elemen
 - pokeapi
 
 ![capture 1](capture1.png)
-![capture 2]([http://url/to/img.png](https://github.com/krusseth-designs/poke-game/blob/main/capture2.png))
+![capture 2](capture2.png)
 
 
 

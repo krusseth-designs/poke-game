@@ -44,6 +44,9 @@ or signup on your own.
 2. `npm install`
 3. `npm start`
 
+### Run tests
+To run tests, run the following command: npm test
+
 ------------------------------------------------------------
 
 **Application Components Outline** 

@@ -17,6 +17,11 @@ Pokemon Challenge is designed as a single-page game app that incorporates elemen
 - Heroku
 - pokeapi
 
+![capture 1](http://url/to/img.png)
+![capture 2](http://url/to/img.png)
+
+
+
 To see a live demo: https://poke-game-3b42cf252d20.herokuapp.com/
 * Username: testuser
 * Password: password

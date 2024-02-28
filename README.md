@@ -22,7 +22,7 @@ Pokemon Challenge incorporates elements from the Pokemon universe through data s
 
 
 
-To see a live demo: https://poke-game-3b42cf252d20.herokuapp.com/
+To see a live demo: [https://poke-game-3b42cf252d20.herokuapp.com/](https://poke-game-7760b13ba88f.herokuapp.com/)
 * Username: testuser
 * Password: password
 

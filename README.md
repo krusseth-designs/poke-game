@@ -4,10 +4,10 @@
 Technologies Used: React, NodeJS, ReactStrap, PostgreSQL
 
 ## Introduction:
-Pokemon Challenge is a simple Pokemon inspired game application. This application is a simple, one page React application crafted using React for the front end, NodeJS and PostgreSQL for the backend, ReactStrap for styling, and PostgreSQL database.
+Pokemon Challenge is a simple, Pokemon inspired game application. This one page React application is crafted using React for the front end, NodeJS and PostgreSQL for the backend, ReactStrap for styling, and a PostgreSQL database.
 
 ## Overview:
-Pokemon Challenge is designed as a single-page game app that incorporates elements from the Pokemon universe through data sourced from the PokeAPI (https://pokeapi.co/api/v2/). The primary objective is to create an entertaining experience where players can build their personalized Pokedex by "catching" Pokemon monsters by selecting the correct type of the Pokemon. 
+Pokemon Challenge incorporates elements from the Pokemon universe through data sourced from the PokeAPI (https://pokeapi.co/api/v2/). The primary objective is to create an entertaining experience where players can build their personalized Pokedex by "catching" Pokemon monsters by selecting the correct type of the Pokemon. 
 
 ## Built With
 

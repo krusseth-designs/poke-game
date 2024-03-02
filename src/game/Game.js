@@ -26,8 +26,8 @@ const Game = () => {
             const response = await axios.get('https://pokeapi.co/api/v2/pokemon/?limit=151');
             const randomPokemon = Math.floor(Math.random() * response.data.results.length);
             const pokemonData = await axios.get(response.data.results[randomPokemon].url);
-            const { name, types } = pokemonData.data;
-            setPokemon({ name, type: types[0].type.name });
+            const { id, name, types } = pokemonData.data;
+            setPokemon({ id, name, type: types[0].type.name});
             setMessage('');
         } catch (error) {
             console.error('Error drawing Pokemon:', error);
@@ -45,7 +45,7 @@ const Game = () => {
         if (answer.toLowerCase() === pokemon.type) {
             setMessage('You caught the Pokemon!');
             setScore(score + 1);
-            addPokemonToPokedex();
+            catchPokemon();
         } else {
             setMessage('You missed the Pokemon!');
         }
@@ -54,20 +54,18 @@ const Game = () => {
     /* function catchPokemon adds the username and the pokemon id to the pokedex table in the database
     * Props: username, id  
     */
-
-
-    const addPokemonToPokedex = async () => {
-        try {
-            const response = await axios.post('http://localhost:3001/pokedex', {
-                username: 'testuser',
-                id: pokemon.id
+    function catchPokemon() {
+        const username = localStorage.getItem('username');
+        const id = pokemon.id;
+        axios.post('/api/pokedex', {username, id})
+            .then(response => {
+                console.log(response);
+            })
+            .catch(error => {
+                console.error('Error adding Pokemon to Pokedex:', error);
             });
-            console.log(response);
-        } catch (error) {
-            console.error('Error adding Pokemon to Pokedex:', error);
-        }
     }
-
+    
     return (
         <div className='game-container'>
           <div className='column-left'>

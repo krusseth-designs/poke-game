@@ -19,6 +19,7 @@ Pokemon Challenge incorporates elements from the Pokemon universe through data s
 
 ![capture 1](capture1.png)
 ![capture 2](capture2.png)
+![capture 3](capture3.png)
 
 
 

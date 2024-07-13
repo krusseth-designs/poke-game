@@ -38,7 +38,7 @@ or signup on your own.
 *Start the backend server:*
 1. cd "backend"
 2. `npm install`
-3. `nodemon`
+3. `npm start`
 
 *Run the frontend:*
 1. cd "frontend"
